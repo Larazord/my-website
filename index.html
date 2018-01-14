@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang=en>
   <head>
-    <title>David Lara</title>
+    <title>David Lara's Personal Website</title>
+    <style>
+    table.dotted{border-style:dotted;}
+    </style>
   </head>
-  <body style="background-color:lightgray">
-    <h1 style="text-align:center;color:blue">David Lara</h1>
-    <h3 style="font-family:console;">Contents</h3>
+  <body style="background-color: #99b3ff">
+    <h1 style="font-family:arial;font-size:50px;text-align:center;color:#404040">David Lara</h1>
+    <hr  />
+
+    <h3 style="font-family:arial;font-size:25px;color:#404040">Contents</h3>
     <ul>
       <li><a href="#AboutMe">About Me </a></li>
-      <li><a href="#Photos">Photos</a></li>
       <li><a href="#Contact">Contact</a></li>
-      <li><a href="#FavStuff">Favourite Stuff</a></li>
-
+      <li><a href="#FavStuff">Favorite Stuff</a></li>
     </ul>
 
     <div>
-    <h2 id=AboutMe>About me</h2>
+    <h2 id=AboutMe style="font-family:arial;font-size:35px;color:#404040;text-align:center">About me</h2>
     <img align="bottom" src="img/me.jpg" alt="The man"/>
-    <p>Basic info</p>
-    <table border=1>
-      <tr>
-        <td>Full name:</td>
-        <td>Oscar David Lara Limon</td>
-      </tr>
-      <tr>
-        <td>Birth date</td>
-        <td>17/02/1997</td>
-      </tr>
-      <tr>
-        <td>I'm from</td>
-        <td>Obregon, Sonora, Mexico</td>
-      </tr>
-      <tr>
-        <td>I study at</td>
-        <td>ITSON</td>
-      </tr>
-      <tr>
-        <td>My mayor is: </td>
-        <td>Software Engineer</td>
-      </tr>
+
+    <table class="dotted">
+      <thead>
+        <tr>
+          <th colspan="2">Basic Info</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Full name:</td>
+          <td>Oscar David Lara Limon</td>
+        </tr>
+        <tr>
+          <td>Birth date</td>
+          <td>17/02/1997</td>
+        </tr>
+        <tr>
+          <td>I'm from</td>
+          <td>Obregon, Sonora, Mexico</td>
+        </tr>
+        <tr>
+          <td>I study at</td>
+          <td><abbr title="Instituto Tecnologico de Sonora">ITSON</abbr></td>
+        </tr>
+      </tbody>
+
     </table>
-    <p>Dummy text about me<br />
-      sort of an introduction
+    <p style="font-family:arial;color:#404040">Hi! My name, as you may know by now, is <em>David Lara!</em> I'm 20 years old and I'm currently studying college.<br />
+      My career is Software Engineering. I like listening to music, watching movies, read and going out with my friends.
+      [work in progress lol]
     </p>
   </div>
 
-  <h2 id=Photos>Photos</h2>
-  <iframe src="">></iframe>
-
-  <h2 id=Contact>Contact</h2>
-  <p>You can find me at: </p>
-  <span>
-    <a href="http://www.instagram.com/odavidlara" target="_blank"> <img src="img/instagramicon.png" alt="odavidlara" style="width:120px;height:120px;">
+  <div>
+    <h2 id=Contact style="font-family:arial;font-size:35px;color:#404040;text-align:center">Contact</h2>
+    <p style="font-family:arial;color:#404040">You can find me at: </p>
+    <span>
+      <a href="http://www.instagram.com/odavidlara" target="_blank"> <img src="img/instagramicon.png" alt="odavidlara" style="width:120px;height:120px;">
+        </a>
+      <a href="mailto:oscar.lr97@gmail.com" target="_blank"> <img src="img/inbox.png" alt="oscar.lr97@gmail.com" style="width:120px;height:120px;">
       </a>
-    <a href="mailto:oscar.lr97@gmail.com" target="_blank"> <img src="img/inbox.png" alt="oscar.lr97@gmail.com" style="width:120px;height:120px;">
-    </a>
-    <a href="https://www.facebook.com/odavidlara" target="_blank"><img src="img/facebook.png" alt="David Lara Facebook" style="width:120px;height:120px;">
-    </a>
-  </span>
+      <a href="https://www.facebook.com/odavidlara" target="_blank"><img src="img/facebook.png" alt="David Lara Facebook" style="width:128px;height:128px;">
+      </a>
+    </span>
+  </div>
 
-  <h2 id=FavStuff>Some things I like</h2>
+  <div>
+    <h2 id=FavStuff style="font-family:arial;font-size:35px;color:#404040;text-align:center">Favorite Stuff</h2>
+    <h3 style="font-family:arial;font-size:30px;color:#404040">Software</h3>
+    <h3 style="font-family:arial;font-size:30px;color:#404040">Movies</h3>
+    <h3 style="font-family:arial;font-size:30px;color:#404040">Music</h3>
+    <iframe src="https://open.spotify.com/embed/user/nowhereman_d/playlist/3kkfgzDwQkv28EpYIUrMGV" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    <h3 style="font-family:arial;font-size:30px;color:#404040">And...</h3>
+  </div>
+
   </body>
 </html>
