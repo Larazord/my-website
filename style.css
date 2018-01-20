@@ -78,6 +78,9 @@ ul.navbar{
   width:9em;
   color:#404040;
   font-family: arial;
+  height: 100%;
+  position: fixed;
+  overflow:auto;
 }
 
 ul.navbar li{
