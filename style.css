@@ -1,0 +1,32 @@
+
+table.dotted{
+  border-style:dotted;
+}
+p{
+  font-family: arial;
+  color:#404040
+}
+body#body{
+  background-color: #99b3ff
+}
+
+img.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  color:#404040;
+}
+
+h2{
+  font-family: arial;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3{
+  font-family: arial;
+  font-size:30px;
+}
