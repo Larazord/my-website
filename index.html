@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
+
   <head>
     <meta charset="utf-8">
     <title>David Lara's Personal Website</title>
@@ -7,10 +8,11 @@
     href="style.css">
   </head>
 
-  <body id="body" class="text">
-    <h1 style="font-family:arial;font-size:40px;text-align:center;" class="text">David Lara</h1>
-    <hr  /> <!-- 1-->
-    <h2>Contents</h2>
+  <body>
+    <h1 style="font-size:40px;text-align:center;" class="text">David Lara</h1>
+    <hr class="faded" /> <!-- 1-->
+    <h2 class="text">Contents</h2>
+
     <ul>
       <li><a href="#AboutMe">About Me </a></li>
       <li><a href="#FavStuff">Favorite Stuff</a></li>
@@ -18,10 +20,10 @@
     </ul>
 
     <div>
-    <h2 id=AboutMe>About me</h2>
-    <img src="img/me.jpg" alt="The man" class="photo"/>
-
-    <table class="dotted">
+    <h2 id=AboutMe class="text">About me</h2>
+    <img src="img/me.jpg" alt="The man" class="principalphoto"/>
+    <br />
+    <table class="dotted text">
       <thead> <!-- 2-->
         <tr>
           <th colspan="2">Basic Info</th>
@@ -61,7 +63,7 @@
     <img src=img/meAtIntel.png alt="David @ Intel " title="Me @ Intel" class="photo" />
     <p>
       Of course that one of my favorite things in the world is software, but not only programming
-      but the whole industry, advances in science.
+      but the whole industry, advances in science.<br />
       I'm still a student but my favorite areas are artificial intelligence, project management and web(web apps and such)
     </p>
 
@@ -71,7 +73,7 @@
       click on the image to go to their imdb page!
     </p>
 
-    <div id="gallery">
+    <div class="gallery">
       <a href=http://www.imdb.com/title/tt0083658/?ref_=nv_sr_2 target="_blank">
         <img src=img/bladerunner.jpg alt="Blade Runner(1982, Ridley Scott)" title="Blade Runner(1982, Ridley Scott)"  />
       </a>
@@ -101,28 +103,50 @@
       </a>
     </div>
 
-
-    <h3 style="font-family:arial;font-size:30px;color:#404040">Music</h3>
+    <div style="text-align:center;">
+    <h3>Music</h3>
     <p>
       Music it's kind of important on my daily life. I listen to all kind of music but
-      my favorite artist are: Kanye West, The Strokes, The Voidz, Mac Demarco, Frank Ocean, Joji, etc... <br />
+      my favorite artist are:<br /> Kanye West, The Strokes, The Voidz, Mac Demarco, Frank Ocean, Joji, etc... <br />
       Here is a small playlist with my favorite songs <em>at the moment</em>!
     </p>
-    <iframe src="https://open.spotify.com/embed/user/nowhereman_d/playlist/3kkfgzDwQkv28EpYIUrMGV" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-    <h3 style="font-family:arial;font-size:30px;color:#404040">And...</h3>
+    <iframe src="https://open.spotify.com/embed/user/nowhereman_d/playlist/3kkfgzDwQkv28EpYIUrMGV" width="300" height="380" frameborder="0" allowtransparency="true" style="margin-left:auto;margin-right:auto;"></iframe>
+    </div>
+    <div>
+    <h3>And...</h3>
     <p>
       I like to spend time with my friends/family, try all kinds of food.
       Also I'm <del>always</del><ins>(sometimes)</ins> learning something new!
     </p>
-    <img src=img/friends1.png style= "width:50%;height:50%" alt="Friends @ Vallarta" title="Friends @ Vallarta" class="photo"  />
-    <img src=img/friends3.png style="width:50%;height:50%" alt="Friends @ Obregon, Son" title="Friends @ Obregon" class="photo" />
-    <img src=img/friends2.png style= "width:50%;height:50%" alt="Friends @ Obregon, Son" title="Friends @ Obregon" class="photo" />
-    <img src=img/family1.png style= "width:50%;height:50%" alt="Family" title="Family" class="photo" />
-    <img src=img/food1.png style= "width:50%;height:50%" alt="Food" title="love of my life" class="photo" />
+    <div class="personal">
+      <img src=img/friends1.png style= "width:80%" alt="Friends @ Vallarta" title="Friends @ Vallarta" />
+      <div class="container">
+        <p>Friends @ Vallarta, October 2017.</p>
+      </div>
+    </div>
+    <div class="personal">
+      <img src=img/friends3.png style="width:80%" alt="Friends @ Obregon, Son" title="Friends @ Obregon" />
+        <div class="container">
+          <p>Friends @ Obregon, Son. October 2016.</p>
+        </div>
+    </div>
+    <div class="personal">
+      <img src=img/friends2.png style= "width:80%" alt="Friends @ Obregon, Son" title="Friends @ Obregon" class="photo" />
+        <div class="container">
+        <p>Friends @ Obregon, Son. December 2017.</p>
+        </div>
+    </div>
+    <div class="personal">
+      <img src=img/family1.png style= "width:80%" alt="Family" title="Family" class="photo" />
+      <div class="container">
+        <p>Family @ Esperanza, Sonora. December 2017.</p>
+      </div>
+    </div>
   </div>
-  <div>
-    <h2 id=Contact style="font-family:arial;font-size:35px;color:#404040;text-align:center">Contact</h2>
-    <span><p style="font-family:arial;color:#404040">You can find me at: </p>
+
+  <footer>
+    <h2 id=Contact>Contact</h2>
+    <span><p>You can find me at: </p>
 
       <a href="http://www.instagram.com/odavidlara" target="_blank"> <img src="img/instagramicon.png" alt="odavidlara" style="width:25px;height:25px;">
         </a>
@@ -131,7 +155,6 @@
       <a href="https://www.facebook.com/odavidlara" target="_blank"><img src="img/facebook.png" alt="David Lara Facebook" style="width:25px;height:25px;">
       </a>
     </span>
-  </div>
-
+  </footer>
   </body>
 </html>
