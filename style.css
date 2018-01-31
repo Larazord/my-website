@@ -68,7 +68,7 @@ img.principalphoto{
   margin-right: auto;
 }
 
-ul.navbar{
+nav.navbar ul{
   list-style-type: none;
   padding: 0;
   margin:0;
@@ -83,13 +83,13 @@ ul.navbar{
   overflow:auto;
 }
 
-ul.navbar li{
+nav.navbar ul li{
   background: #cccccc;
   margin: 0.5em 0;
   padding: 0.3em;
   border-right:1em;
 }
 
-ul.navbar a{
+nav.navbar ul a{
   text-decoration: none;
 }
